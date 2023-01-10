@@ -1,0 +1,21 @@
+/* Module Build File */
+
+description     = ""
+ext {
+}
+niagaraModule {
+  moduleName = "devTrafficLights"
+  preferredSymbol = "dtl"
+  runtimeProfile = "ux"
+}
+
+dependencies {
+  compile "Tridium:nre:4.11"
+  compile "Tridium:baja:4.11"
+  compile project(":devTrafficLights-rt")
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

@@ -1,0 +1,29 @@
+/* Module Build File */
+
+description     = "Examples to demonstrate advanced developer tool features"
+ext {
+}
+niagaraModule {
+  moduleName = "devTrafficLights"
+  preferredSymbol = "dtl"
+  runtimeProfile = "ux"
+}
+
+dependencies {
+  compile "Tridium:nre:4.11"
+  compile "Tridium:baja:4.11"
+  compile "Tridium:alarm-rt:4.11"
+  compile "Tridium:bajaui-wb:4.11"
+  compile "Tridium:bql-rt:4.11"
+  compile "Tridium:control-rt:4.11"
+  compile "Tridium:gx-rt:4.11"
+  compile "Tridium:history-rt:4.11"
+  compile "Tridium:hx-wb:4.11"
+  compile "Tridium:web-rt:4.11"
+  compile project(":devTrafficLights-rt")
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

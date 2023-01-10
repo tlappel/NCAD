@@ -1,0 +1,39 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!-- Type Example:<type name="MyClass" class="com.acme.BMyClass"/> -->
+  <!--com.tridiumuniversity.devTrafficLights-->
+  <type class="com.tridiumuniversity.devTrafficLights.BFirstComponent" name="FirstComponent"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BMultiAnnotationDefinition" name="MultiAnnotationDefinition"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BComponentWithJavaPrimitives" name="ComponentWithJavaPrimitives"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BChillerConfigurator" name="ChillerConfigurator">
+    <agent>
+      <on type="devTrafficLights:BGenericAHU"/>
+      <on type="devTrafficLights:BFirstComponent"/>
+      <on type="bajaui:Widget"/>
+      <on type="baja:Value"/>
+    </agent>
+  </type>
+  <type class="com.tridiumuniversity.devTrafficLights.BGenericAHU" name="GenericAHU"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BComponentWithBSimpleProperties" name="ComponentWithBSimpleProperties"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BBasicLightNode" name="BasicLightNode"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BCameraNode" name="CameraNode"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BComponentWithBStructProperties" name="ComponentWithBStructProperties"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BLightNode" name="LightNode"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BNestedBStructPropertyComponent" name="NestedBStructPropertyComponent"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BRgbColor" name="RgbColor"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BComponentWithBComponentProperties" name="ComponentWithBComponentProperties"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BComponentWithTopicSlotExample" name="ComponentWithTopicSlotExample"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BAddingDynamicSlots" name="AddingDynamicSlots"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BRemovingDynamicSlots" name="RemovingDynamicSlots"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BReorderingDynamicSlots" name="ReorderingDynamicSlots"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BRenamingDynamicSlots" name="RenamingDynamicSlots"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BManipulatingDynamicSlots" name="ManipulatingDynamicSlots"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BLifeCycleExample" name="LifeCycleExample"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BStdColor" name="StdColor"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BComponentToTestActions" name="ComponentToTestActions"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BTrafficLightColor" name="TrafficLightColor"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BTrafficLightController" name="TrafficLightController"/>
+  <type class="com.tridiumuniversity.devTrafficLights.BOverrideSlotomaticAnnotation" name="OverrideSlotomaticAnnotation"/>
+  <!--com.acme.devTrafficLights-->
+</types>
