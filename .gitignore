@@ -1,0 +1,6 @@
+#ignore gradle stuff
+gradle
+.idea
+.gradle
+gradlew
+gradlew.bat
